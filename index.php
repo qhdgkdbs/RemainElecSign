@@ -1,6 +1,7 @@
 <html>
     <head>
         <meta charset = 'utf-8'>
+        <meta http-equiv="refresh" content="5; URL=index.php">
         <style>
             body{
                 padding:0px;
@@ -80,5 +81,10 @@
             <div ></div>
         </div>
     </body>
+    <script>
+        setTimeout(function(){
+          window.location.reload(1);
+        }, 5000);
+    </script>
 
 </html>
